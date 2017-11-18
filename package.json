@@ -18,8 +18,11 @@
   "homepage": "https://github.com/Evgheni-Nichitenco/test-landing#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-pug": "^3.3.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp.spritesmith": "^6.5.1",
+    "rimraf": "^2.6.2"
   }
 }
