@@ -1,0 +1,28 @@
+body {
+  font-family: $ff-main;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; //- Наследует значение box-sizing от родительского эл-та
+}
+
+//- Убираем маркировку у списков
+ul,
+ol {
+  list-style-type: none;
+}
+
+//- Очистка флоатов
+.clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
